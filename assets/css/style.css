@@ -255,6 +255,16 @@ h6 {
   z-index: 1;
 }
 
+.app-title {
+  font-size: 12px !important;
+  line-height: 42px;
+}
+
+.image_containers {
+  width: 290px;
+  height: 193px;
+}
+
 #hero .hero-container {
   position: relative;
   z-index: 2;
