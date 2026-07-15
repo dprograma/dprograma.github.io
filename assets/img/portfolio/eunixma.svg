@@ -1,59 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="'Segoe UI',system-ui,sans-serif">
     <defs>
-      <linearGradient id="bgeu" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="#120a20"/>
-        <stop offset="1" stop-color="#1c0f2e"/>
-      </linearGradient>
-      <radialGradient id="gloweu" cx="0.5" cy="0.35" r="0.8">
-        <stop offset="0" stop-color="#a78bfa" stop-opacity="0.55"/>
-        <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
-      </radialGradient>
-      <filter id="softeu"><feGaussianBlur stdDeviation="30"/></filter>
+      <linearGradient id="bgeu" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#064e3b"/><stop offset="1" stop-color="#0f2f2a"/></linearGradient>
+      <radialGradient id="gloweu" cx="0.5" cy="0.3" r="0.85"><stop offset="0" stop-color="#10b981" stop-opacity="0.5"/><stop offset="1" stop-color="#10b981" stop-opacity="0"/></radialGradient>
+      <filter id="softeu"><feGaussianBlur stdDeviation="34"/></filter>
     </defs>
     <rect width="1200" height="800" fill="url(#bgeu)"/>
-    <circle cx="960" cy="140" r="220" fill="#a78bfa" opacity="0.25" filter="url(#softeu)"/>
-    <circle cx="220" cy="700" r="200" fill="#1c0f2e" opacity="0.30" filter="url(#softeu)"/>
+    <circle cx="980" cy="130" r="230" fill="#10b981" opacity="0.22" filter="url(#softeu)"/>
+    <circle cx="200" cy="720" r="210" fill="#0f2f2a" opacity="0.30" filter="url(#softeu)"/>
     <rect width="1200" height="800" fill="url(#gloweu)"/>
     <g>
       <rect x="150" y="150" width="900" height="520" rx="16" fill="#0b1020" stroke="rgba(255,255,255,.14)" stroke-width="1.5"/>
-      <rect x="150" y="150" width="900" height="34" rx="16" fill="#141a2e"/>
-      <rect x="150" y="168" width="900" height="16" fill="#141a2e"/>
+      <rect x="150" y="150" width="900" height="34" rx="16" fill="#e9edf5"/>
+      <rect x="150" y="168" width="900" height="16" fill="#e9edf5"/>
       <circle cx="170" cy="167" r="5" fill="#ff5f57"/>
       <circle cx="188" cy="167" r="5" fill="#febc2e"/>
       <circle cx="206" cy="167" r="5" fill="#28c840"/>
-      <rect x="230" y="159" width="740" height="16" rx="8" fill="rgba(255,255,255,.08)"/>
-      <clipPath id="clip150150"><rect x="151" y="184" width="898" height="485" rx="0"/></clipPath>
-      <g clip-path="url(#clip150150)">
-  <rect x="150" y="184" width="900" height="486" fill="#150b26"/>
-  <rect x="174" y="206" width="130" height="18" rx="6" fill="#a78bfa"/>
-  <circle cx="990" cy="216" r="13" fill="rgba(255,255,255,.1)"/><text x="990" y="221" font-size="14" text-anchor="middle">🛒</text>
-  <circle cx="950" cy="216" r="13" fill="rgba(255,255,255,.1)"/><text x="950" y="221" font-size="13" text-anchor="middle">🔍</text>
-  <rect x="174" y="248" width="852" height="88" rx="14" fill="url(#eubanner)"/>
-  <text x="194" y="288" fill="#fff" font-size="22" font-weight="800">Season Sale — up to 50% off</text>
-  <text x="194" y="314" fill="rgba(255,255,255,.8)" font-size="13">Fashion • Gadgets • Home essentials</text>
-  
-    <rect x="174" y="354" width="201" height="155" rx="12" fill="#1e1236"/>
-    <rect x="184" y="364" width="181" height="82" rx="10" fill="url(#euimg0)"/>
-    <rect x="186" y="456" width="165" height="11" rx="5" fill="rgba(255,255,255,.7)"/>
-    <rect x="186" y="474" width="137" height="9" rx="4" fill="rgba(255,255,255,.35)"/>
-    <text x="186" y="502" fill="#a78bfa" font-size="13" font-weight="800">₦16k</text>
-    <rect x="391" y="354" width="201" height="155" rx="12" fill="#1e1236"/>
-    <rect x="401" y="364" width="181" height="82" rx="10" fill="url(#euimg1)"/>
-    <rect x="403" y="456" width="165" height="11" rx="5" fill="rgba(255,255,255,.7)"/>
-    <rect x="403" y="474" width="137" height="9" rx="4" fill="rgba(255,255,255,.35)"/>
-    <text x="403" y="502" fill="#a78bfa" font-size="13" font-weight="800">₦24k</text>
-    <rect x="608" y="354" width="201" height="155" rx="12" fill="#1e1236"/>
-    <rect x="618" y="364" width="181" height="82" rx="10" fill="url(#euimg2)"/>
-    <rect x="620" y="456" width="165" height="11" rx="5" fill="rgba(255,255,255,.7)"/>
-    <rect x="620" y="474" width="137" height="9" rx="4" fill="rgba(255,255,255,.35)"/>
-    <text x="620" y="502" fill="#a78bfa" font-size="13" font-weight="800">₦32k</text>
-    <rect x="825" y="354" width="201" height="155" rx="12" fill="#1e1236"/>
-    <rect x="835" y="364" width="181" height="82" rx="10" fill="url(#euimg3)"/>
-    <rect x="837" y="456" width="165" height="11" rx="5" fill="rgba(255,255,255,.7)"/>
-    <rect x="837" y="474" width="137" height="9" rx="4" fill="rgba(255,255,255,.35)"/>
-    <text x="837" y="502" fill="#a78bfa" font-size="13" font-weight="800">₦40k</text>
-  <defs>
-    <linearGradient id="eubanner" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#db2777"/></linearGradient>
-    <linearGradient id="euimg0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ec4899"/></linearGradient><linearGradient id="euimg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a855f7"/><stop offset="1" stop-color="#f472b6"/></linearGradient><linearGradient id="euimg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d946ef"/><stop offset="1" stop-color="#a78bfa"/></linearGradient><linearGradient id="euimg3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
-  </defs></g>
-    </g><text x="90" y="90" fill="#fff" font-size="42" font-weight="800">Eunixma</text><text x="92" y="122" fill="rgba(255,255,255,.7)" font-size="18" font-weight="500">E-Commerce Marketplace</text><g><rect x="150" y="700" width="100" height="30" rx="15" fill="rgba(255,255,255,.12)" stroke="rgba(255,255,255,.18)"/><text x="200" y="720" fill="#fff" font-size="14" font-weight="600" text-anchor="middle" opacity=".92">Laravel</text></g><g><rect x="262" y="700" width="80" height="30" rx="15" fill="rgba(255,255,255,.12)" stroke="rgba(255,255,255,.18)"/><text x="302" y="720" fill="#fff" font-size="14" font-weight="600" text-anchor="middle" opacity=".92">React</text></g><g><rect x="354" y="700" width="90" height="30" rx="15" fill="rgba(255,255,255,.12)" stroke="rgba(255,255,255,.18)"/><text x="399" y="720" fill="#fff" font-size="14" font-weight="600" text-anchor="middle" opacity=".92">MySQL</text></g><g><rect x="456" y="700" width="110" height="30" rx="15" fill="rgba(255,255,255,.12)" stroke="rgba(255,255,255,.18)"/><text x="511" y="720" fill="#fff" font-size="14" font-weight="600" text-anchor="middle" opacity=".92">REST API</text></g></svg>
+      <rect x="230" y="159" width="740" height="16" rx="8" fill="#ffffff"/>
+      <clipPath id="clipeu"><rect x="151" y="184" width="898" height="485"/></clipPath>
+      <g clip-path="url(#clipeu)">
+  <defs><linearGradient id="euhero" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10b981"/><stop offset="1" stop-color="#14b8a6"/></linearGradient></defs>
+  <rect x="150" y="184" width="900" height="486" fill="#ffffff"/>
+  <!-- navbar -->
+  <circle cx="180" cy="210" r="9" fill="#10b981"/>
+  <text x="196" y="215" fill="#0f172a" font-size="14" font-weight="800">eunixma<tspan fill="#10b981">.com.ng</tspan></text>
+  <rect x="350" y="199" width="240" height="22" rx="11" fill="#f1f5f9" stroke="#e2e8f0"/>
+  <text x="840" y="215" fill="#475569" font-size="12" font-weight="600">News</text>
+  <rect x="890" y="198" width="66" height="24" rx="12" fill="#7c3aed"/><text x="923" y="214" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">Post Ad</text>
+  <text x="972" y="215" fill="#475569" font-size="12" font-weight="600">Login</text>
+  <!-- hero -->
+  <rect x="150" y="236" width="900" height="434" fill="url(#euhero)"/>
+  <text x="600" y="296" fill="#fff" font-size="30" font-weight="800" text-anchor="middle">Discover Amazing Deals</text>
+  <text x="600" y="330" fill="#fff" font-size="30" font-weight="800" text-anchor="middle">Across Nigeria</text>
+  <text x="600" y="358" fill="rgba(255,255,255,.9)" font-size="13" text-anchor="middle">Your trusted marketplace for buying &amp; selling everything</text>
+  <!-- search card -->
+  <rect x="240" y="380" width="720" height="86" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="600" y="404" fill="#0f172a" font-size="14" font-weight="800" text-anchor="middle">Find Your Perfect Match</text>
+  <rect x="260" y="418" width="340" height="30" rx="8" fill="#f1f5f9"/>
+  <rect x="610" y="418" width="190.4" height="30" rx="8" fill="#f1f5f9"/>
+  <rect x="810.4" y="418" width="136" height="30" rx="15" fill="#2563eb"/><text x="878.4" y="437.3333333333333" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">Search</text>
+  <!-- cta -->
+  <rect x="450" y="482" width="140" height="34" rx="17" fill="#059669"/><text x="520" y="503.3333333333333" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">+ Post Your Ad</text>
+  <rect x="610" y="482" width="150" height="34" rx="17" fill="rgba(255,255,255,.18)"/><text x="685" y="503.3333333333333" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">Browse Categories</text></g>
+    </g><text x="90" y="90" fill="#fff" font-size="42" font-weight="800">Eunixma</text><text x="92" y="122" fill="rgba(255,255,255,.72)" font-size="18" font-weight="500">Classified Ads &amp; E-Commerce Marketplace</text><g><rect x="150" y="700" width="100" height="30" rx="15" fill="rgba(255,255,255,.12)" stroke="rgba(255,255,255,.18)"/><text x="200" y="720" fill="#fff" font-size="14" font-weight="600" text-anchor="middle" opacity=".92">Laravel</text></g><g><rect x="262" y="700" width="80" height="30" rx="15" fill="rgba(255,255,255,.12)" stroke="rgba(255,255,255,.18)"/><text x="302" y="720" fill="#fff" font-size="14" font-weight="600" text-anchor="middle" opacity=".92">React</text></g><g><rect x="354" y="700" width="90" height="30" rx="15" fill="rgba(255,255,255,.12)" stroke="rgba(255,255,255,.18)"/><text x="399" y="720" fill="#fff" font-size="14" font-weight="600" text-anchor="middle" opacity=".92">MySQL</text></g><g><rect x="456" y="700" width="110" height="30" rx="15" fill="rgba(255,255,255,.12)" stroke="rgba(255,255,255,.18)"/><text x="511" y="720" fill="#fff" font-size="14" font-weight="600" text-anchor="middle" opacity=".92">REST API</text></g></svg>
