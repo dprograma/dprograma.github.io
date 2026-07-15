@@ -4,165 +4,104 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Kennedy Eguwda - My Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <title>InstantBillsPay — Kennedy Egwuda</title>
+  <meta name="description" content="A high-throughput bill-payment & value-added-services platform built on a microservices core.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%236366f1'/%3E%3Cstop offset='0.5' stop-color='%23a855f7'/%3E%3Cstop offset='1' stop-color='%2322d3ee'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='24' fill='url(%23g)'/%3E%3Ctext x='50' y='68' font-family='Arial' font-size='52' font-weight='bold' fill='white' text-anchor='middle'%3EK%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      $('a').click(function(e) {
-        e.preventDefault(); // Prevent default link behavior
-        var url = $(this).attr('href'); // Get the URL from the clicked link
-
-        $.ajax({
-          url: url,
-          success: function(data) {
-            $('#content').html(data); // Update the content div with the fetched HTML
-          }
-        });
-      });
-    });
-  </script>
+  <link href="assets/css/modern.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html" onclick="window.open('index.html', '_self')">Kennedy Egwuda</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://twitter.com/ken_d_prog" class="twitter" onclick="window.open('https://twitter.com/ken_d_prog', '_self')"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.facebook.com/kennedy.egwuda" class="facebook" onclick="window.open('https://www.facebook.com/kennedy.egwuda', '_self')"><i class="bx bxl-facebook"></i></a>
-          <a href="https://www.linkedin.com/in/dprograma" class="linkedin" onclick="window.open('https://www.linkedin.com/in/dprograma', '_self')"><i class="bx bxl-linkedin"></i></a>
-        </div>
+  <nav class="nav scrolled">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <span class="logo">KE</span>
+        <span>Kennedy Egwuda<small>Software Engineer &amp; CTO</small></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" aria-label="Toggle theme"><i class="bx bx-sun"></i></button>
+        <a href="assets/Kennedy_Egwuda_Resume.pdf" download class="btn btn-primary desktop-only"><i class="bx bx-download"></i> Résumé</a>
+        <button class="icon-btn nav-toggle" aria-label="Menu"><i class="bx bx-menu"></i></button>
       </div>
-
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="index.html#hero" class="nav-link scrollto active" onclick="window.open('index.html#hero', '_self')"><i class="bx bx-home" ></i> <span>Home</span></a></li>
-          <li><a href="index.html#about" class="nav-link scrollto" onclick="window.open('index.html#about', '_self')"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="index.html#resume" class="nav-link scrollto" onclick="window.open('index.html#resume', '_self')"><i class="bx bx-file-blank" ></i> <span>Resume</span></a></li>
-          <li><a href="index.html#portfolio" class="nav-link scrollto" onclick="window.open('index.html#portfolio', '_self')"><i class="bx bx-book-content" ></i> <span>Portfolio</span></a></li>
-          <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
-          <li><a href="index.html#contact" class="nav-link scrollto" onclick="window.open('index.html#contact', '_self')"><i class="bx bx-envelope" ></i> <span>Contact</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
     </div>
-  </header><!-- End Header -->
+  </nav>
 
-  <main id="main">
-
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Portfoio Details</h2>
-          <ol>
-            <li><a href="index.html" onclick="window.open('index.html', '_self')">Home</a></li>
-            <li>Portfolio Details</li>
-          </ol>
-        </div>
-
+  <section class="detail-hero">
+    <div class="container">
+      <div class="crumbs reveal">
+        <a href="index.html">Home</a> <i class="bx bx-chevron-right"></i>
+        <a href="index.html#projects">Projects</a> <i class="bx bx-chevron-right"></i>
+        <span>InstantBillsPay</span>
       </div>
-    </section><!-- End Breadcrumbs -->
+      <span class="eyebrow reveal">Fintech · Payments</span>
+      <h1 class="detail-title reveal">InstantBillsPay</h1>
+      <p class="detail-sub reveal">A high-throughput bill-payment & value-added-services platform built on a microservices core.</p>
 
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="">
-                  <img src="assets/img/portfolio/instantbillspay.png" alt="">
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Software Engineering</li>
-                <li><strong>Client</strong>: United Bank for Africa</li>
-                <li><strong>Project date</strong>: June, 2022</li>
-                <li><strong>Project URL</strong>: <a href="https://www.instantbillspay.com/" onclick="window.open('https://www.instantbillspay.com', '_blank')">InstantBillsPay</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description">
-              <h2>Main details of this portfolio</h2>
-              <p>
-                Worked here as a senior django developer. Adding features to the existing application and creating interfaces for customers.
-                Major tasks were upgrading admin dashboard, adding payment options features, upgrading existing payment services and adding 3rd-party transaction log of activities for audit purposes.
-              </p>
-            </div>
-          </div>
-
+      <div class="detail-grid">
+        <div class="detail-shot reveal">
+          <img src="assets/img/portfolio/instantbillspay.png" alt="InstantBillsPay">
         </div>
-
+        <aside class="detail-info reveal">
+          <h3>Project Information</h3>
+          <div class="row"><b>Category</b><span>Fintech · Payments</span></div>
+              <div class="row"><b>Client</b><span>Silicon Harbour Transprojects Ltd</span></div>
+              <div class="row"><b>My Role</b><span>Chief Technology Officer</span></div>
+              <div class="row"><b>Timeline</b><span>2022 – Present</span></div>
+              
+          <a href="index.html#projects" class="btn btn-ghost"><i class="bx bx-arrow-back"></i> Back to projects</a>
+        </aside>
       </div>
-    </section><!-- End Portfolio Details Section -->
 
-  </main><!-- End #main -->
-
-<!-- ======= Footer ======= -->
-<footer id="footer">
-  <div class="container">
-    <div class="copyright">
-      Copyright &copy; <script>today = new Date(); document.write(`${today.getFullYear()}`);</script><strong><span> Kennedy Egwuda</span></strong>
+      <div class="detail-body">
+        <div class="reveal">
+          <h2>Overview</h2>
+          <p>InstantBillsPay is a bill-payment and VAS platform for airtime, data, electricity, TV and other utilities. As part of the Silicon Harbour product suite, it was engineered as a fault-tolerant microservices system handling millions of real-time transactions daily at 99.9% uptime.</p>
+          <p>It integrates multiple payment and biller gateways with robust error handling, retry mechanisms and circuit-breaker patterns for resilient service-to-service communication, backed by structured logging and observability for rapid incident diagnosis.</p>
+        </div>
+        <div class="reveal">
+          <h2>Key Features</h2>
+          <ul class="feature-list">
+            <li><i class="bx bx-check-circle"></i> Airtime, data, utility & TV payments</li>
+            <li><i class="bx bx-check-circle"></i> Microservices with circuit breakers & retries</li>
+            <li><i class="bx bx-check-circle"></i> Millions of real-time transactions/day</li>
+            <li><i class="bx bx-check-circle"></i> 99.9% uptime, sub-100ms latency</li>
+            <li><i class="bx bx-check-circle"></i> Redis caching & query optimisation</li>
+            <li><i class="bx bx-check-circle"></i> Structured JSON logging & alerting</li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <h2>Tech Stack</h2>
+          <div class="stack-tags">
+            <span>Python</span><span>Django</span><span>FastAPI</span><span>Redis</span><span>PostgreSQL</span><span>Interswitch</span><span>Docker</span>
+          </div>
+        </div>
+        <div class="reveal" style="margin-top:10px">
+          <a href="index.html#projects" class="btn btn-ghost"><i class="bx bx-arrow-back"></i> Back to all projects</a>
+        </div>
+      </div>
     </div>
-    
-  </div>
-</footer><!-- End  Footer -->
+  </section>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <footer>
+    <div class="container">
+      <div>© <span id="year">2026</span> Kennedy Egwuda. Built with care in Lagos.</div>
+      <div>Python · Django · React Native · Distributed Systems</div>
+    </div>
+  </footer>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+  <button class="to-top" aria-label="Back to top"><i class="bx bx-up-arrow-alt"></i></button>
+  <script src="assets/js/modern.js"></script>
 </body>
 
 </html>
